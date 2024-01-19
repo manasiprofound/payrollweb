@@ -16,7 +16,7 @@
 <div class="header-container" >
   <section id="logo">
     <img
-      src="assets/images/HireAMasterLogo.png"
+      src="assets/images/ITprologo.png"
       alt="A logo of a character standing near the letter
              A and the company named HireAMaster."
       title="HireAMaster Logo"
@@ -28,27 +28,27 @@
 
   <div class="profilephoto">
     <img
-      src="assets/images/Profilepic.png"
+      src="assets/images/profile.png"
       alt="Profile photo of the user."
       width="45"
       height="auto"
     />
   </div>
 
-  <div class="dropdown" style="float: right">
-    <button class="dropbtn">
-      <img
-        src="assets/images/icons/dropdown.png"
-        alt="Dropdown button"
-        width="25"
-        height="auto"
-      />
-    </button>
-
-    <div class="dropdown-content">
-      <button class="logout" (click)="logout()">Logout</button>
+    <div class="dropdown" style="float: right">
+        <li class="nav-item dropdown">
+            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#" (click)="logout()">Logout</a></li>
+            </ul>
+        </li>
+        
     </div>
-  </div>
 
   <hr />
-  </div>
+  

@@ -6,7 +6,7 @@ import { StaffCreateempComponent } from './screen/staff-createemp/staff-createem
 import { EmpDashboardComponent } from './screen/emp-dashboard/emp-dashboard.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'stafflogin', pathMatch: 'full'},
+  { path: '', redirectTo: 'staffhome', pathMatch: 'full'},
   { path: 'stafflogin', component: StaffLoginComponent},
   { path: 'staffhome', component: StaffDashboardComponent},
   { path: 'createemp', component: StaffCreateempComponent},
