@@ -1,1 +1,58 @@
-<p>header works!</p>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+  rel="stylesheet"
+/>
+
+<div class="header-container" >
+  <section id="logo">
+    <img
+      src="assets/images/ITprologo.png"
+      alt="A logo of a character standing near the letter
+             A and the company named HireAMaster."
+      title="HireAMaster Logo"
+      width="220"
+      height="auto"
+      (click)="gotoHome()"
+    />
+  </section>
+
+  
+
+  <div class="dropdown">
+   
+
+    <li class="nav-item dropdown">
+      
+
+      <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="profilephoto">
+          <img
+            src="assets/images/profile.png"
+            alt="Profile photo of the user."
+            width="45"
+            height="auto"
+          />
+        </div>
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><a class="dropdown-item" href="#">Settings</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#" (click)="logout()">Logout</a></li>
+      </ul>
+    </li>
+      
+  </div>
+
+
+</div> 
