@@ -7,6 +7,9 @@ import { StaffLoginComponent } from './screen/staff-login/staff-login.component'
 import { StaffDashboardComponent } from './screen/staff-dashboard/staff-dashboard.component';
 import { StaffCreateempComponent } from './screen/staff-createemp/staff-createemp.component';
 import { EmpDashboardComponent } from './screen/emp-dashboard/emp-dashboard.component';
+import { HeaderComponent } from './component/header/header.component';
+import { FooterComponent } from './component/footer/footer.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,16 @@ import { EmpDashboardComponent } from './screen/emp-dashboard/emp-dashboard.comp
     StaffLoginComponent,
     StaffDashboardComponent,
     StaffCreateempComponent,
-    EmpDashboardComponent
+    EmpDashboardComponent,
+    HeaderComponent,
+    FooterComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
