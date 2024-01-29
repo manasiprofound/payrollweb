@@ -14,6 +14,14 @@ export class HeaderComponent {
     this.router.navigate(['login']);
   }
 
+  gotoSettings() {
+    this.router.navigate(['staffsettings']);
+  }
+
+  gotoProfile() {
+    this.router.navigate(['staffprofile']);
+  }
+
   logout() {
     this.auth.logout();
   }

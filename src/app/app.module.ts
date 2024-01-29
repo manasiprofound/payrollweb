@@ -10,6 +10,8 @@ import { EmpDashboardComponent } from './screen/emp-dashboard/emp-dashboard.comp
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { FormsModule } from '@angular/forms';
+import { StaffSettingsComponent } from './screen/staff-settings/staff-settings.component';
+import { StaffProfileComponent } from './screen/staff-profile/staff-profile.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { FormsModule } from '@angular/forms';
     EmpDashboardComponent,
     HeaderComponent,
     FooterComponent,
+    StaffSettingsComponent,
+    StaffProfileComponent,
 
   ],
   imports: [

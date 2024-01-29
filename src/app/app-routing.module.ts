@@ -4,14 +4,18 @@ import { StaffLoginComponent } from './screen/staff-login/staff-login.component'
 import { StaffDashboardComponent } from './screen/staff-dashboard/staff-dashboard.component';
 import { StaffCreateempComponent } from './screen/staff-createemp/staff-createemp.component';
 import { EmpDashboardComponent } from './screen/emp-dashboard/emp-dashboard.component';
+import { StaffProfileComponent } from './screen/staff-profile/staff-profile.component';
+import { StaffSettingsComponent } from './screen/staff-settings/staff-settings.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'staffhome', pathMatch: 'full'},
+  // { path: '', redirectTo: '', pathMatch: 'full'},
+  {path: 'staffprofile', component: StaffProfileComponent},
+  {path: 'staffsettings', component: StaffSettingsComponent},
   { path: 'stafflogin', component: StaffLoginComponent},
   { path: 'staffhome', component: StaffDashboardComponent},
   { path: 'createemp', component: StaffCreateempComponent},
   { path: 'emphome', component: EmpDashboardComponent},
-  {path: '**', component: StaffLoginComponent}
+  // {path: '**', component: StaffDashboardComponent}
 ];
 
 @NgModule({
