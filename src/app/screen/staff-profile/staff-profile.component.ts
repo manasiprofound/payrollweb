@@ -9,7 +9,7 @@ import { AuthService } from 'src/app/services/auth.service';
 })
 export class StaffProfileComponent {
   constructor(private router: Router, private auth: AuthService) { }
-  gotoHome() {
+  gotoStaffDashboard() {
     this.router.navigate(['staffhome']);
   }
 }

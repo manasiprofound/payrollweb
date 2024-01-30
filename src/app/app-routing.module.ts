@@ -6,6 +6,8 @@ import { StaffCreateempComponent } from './screen/staff-createemp/staff-createem
 import { EmpDashboardComponent } from './screen/emp-dashboard/emp-dashboard.component';
 import { StaffProfileComponent } from './screen/staff-profile/staff-profile.component';
 import { StaffSettingsComponent } from './screen/staff-settings/staff-settings.component';
+import { StaffEmptimecardComponent } from './screen/staff-emptimecard/staff-emptimecard.component';
+import { StaffEmptimesheetComponent } from './screen/staff-emptimesheet/staff-emptimesheet.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '', pathMatch: 'full'},
@@ -15,6 +17,8 @@ const routes: Routes = [
   { path: 'staffhome', component: StaffDashboardComponent},
   { path: 'createemp', component: StaffCreateempComponent},
   { path: 'emphome', component: EmpDashboardComponent},
+  { path: 'staffemptimecard', component: StaffEmptimecardComponent},
+  { path: 'staffemptimesheet', component: StaffEmptimesheetComponent}
   // {path: '**', component: StaffDashboardComponent}
 ];
 

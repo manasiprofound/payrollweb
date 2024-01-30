@@ -12,6 +12,8 @@ import { FooterComponent } from './component/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { StaffSettingsComponent } from './screen/staff-settings/staff-settings.component';
 import { StaffProfileComponent } from './screen/staff-profile/staff-profile.component';
+import { StaffEmptimecardComponent } from './screen/staff-emptimecard/staff-emptimecard.component';
+import { StaffEmptimesheetComponent } from './screen/staff-emptimesheet/staff-emptimesheet.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { StaffProfileComponent } from './screen/staff-profile/staff-profile.comp
     FooterComponent,
     StaffSettingsComponent,
     StaffProfileComponent,
+    StaffEmptimecardComponent,
+    StaffEmptimesheetComponent,
 
   ],
   imports: [
