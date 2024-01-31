@@ -17,6 +17,7 @@
 	border-radius: 6px;
 	margin-bottom: 15px;
 }
+
 .form-style-10 h1{
 	background: #2A88AD;
 	padding: 20px 30px 15px 30px;
@@ -91,16 +92,12 @@
   }
   
   
-  h1{
-	position: relative;
-	left:0px;
-  }
-  
   table {
 	width: 1190px;
 	border-collapse: collapse;
 	position: center;
-	
+	position: relative;
+	right: 20px;
   }
   
   th,
