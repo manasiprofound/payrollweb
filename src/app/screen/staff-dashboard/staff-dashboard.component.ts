@@ -10,6 +10,10 @@ export class StaffDashboardComponent {
   constructor(private router: Router) { }
 
   createemp() {
-    this.router.navigate(['createemp']);;
+    this.router.navigate(['createemp']);
+  }
+
+  timecard(){
+    this.router.navigate(['staffemptimecard']);
   }
 }

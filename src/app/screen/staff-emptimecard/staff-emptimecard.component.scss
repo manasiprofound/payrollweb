@@ -1,162 +1,159 @@
 .form-style-10{
-	width:1250px;
-	padding:50px;
-	margin:40px auto;
-	background: #FFF;
-	border-radius: 10px;
-	-webkit-border-radius:10px;
-	-moz-border-radius: 10px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+width:1250px;
+padding:50px;
+margin:40px auto;
+background: #FFF;
+border-radius: 10px;
+-webkit-border-radius:10px;
+-moz-border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
 }
 
 .form-style-10 .inner-wrap{
-	padding: 30px;
-	background: #F8F8F8;
-	border-radius: 6px;
-	margin-bottom: 15px;
+padding: 30px;
+background: #F8F8F8;
+border-radius: 6px;
+margin-bottom: 15px;
 }
 
 .form-style-10 h1{
-	background: #2A88AD;
-	padding: 20px 30px 15px 30px;
-	margin: -30px -30px 30px -30px;
-	border-radius: 10px 10px 0 0;
-	-webkit-border-radius: 10px 10px 0 0;
-	-moz-border-radius: 10px 10px 0 0;
-	color: #fff;
-	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
-	font: normal 30px 'Bitter', serif;
-	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-	border: 1px solid #257C9E;
+background: #2A88AD;
+padding: 20px 30px 15px 30px;
+margin: -30px -30px 30px -30px;
+border-radius: 10px 10px 0 0;
+-webkit-border-radius: 10px 10px 0 0;
+-moz-border-radius: 10px 10px 0 0;
+color: #fff;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+font: normal 30px 'Bitter', serif;
+-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+border: 1px solid #257C9E;
 }
 .form-style-10 h1 > span{
-	display: block;
-	margin-top: 2px;
-	font: 13px Arial, Helvetica, sans-serif;
+display: block;
+margin-top: 2px;
+font: 13px Arial, Helvetica, sans-serif;
 }
 .form-style-10 label{
-	display: block;
-	font: 13px Arial, Helvetica, sans-serif;
-	color: #888;
-	margin-bottom: 15px;
+display: block;
+font: 13px Arial, Helvetica, sans-serif;
+color: #888;
+margin-bottom: 15px;
 }
 
 .form-style-10 .section{
-	font: normal 20px 'Bitter', serif;
-	color: #2A88AD;
-	margin-bottom: px;
+font: normal 20px 'Bitter', serif;
+color: #2A88AD;
+margin-bottom: px;
 }
 
 .btn {
-	align-items: center;
-	background-color: #2A88AD;
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	border-radius: .25rem;
-	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-	box-sizing: border-box;
-	color: rgba(255, 255, 255, 0.85);
-	cursor: pointer;
-	display: inline-flex;
-	font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 16px;
-	font-weight: 600;
-	justify-content: center;
-	margin: 0;
-	min-height: 3rem;
-	padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-	position: relative;
-	top:30px;
-  }
-  
-  .btn:hover,
-  .btn:focus {
-	border-color: rgba(0, 0, 0, 0.15);
-	box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-	color: rgba(255, 255, 255, 0.65);
-  }
-  
-  .btn:hover {
-	transform: translateY(-1px);
-  }
-  
-  .btn:active {
-	background-color: #F0F0F1;
-	border-color: rgba(0, 0, 0, 0.15);
-	box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-	color: rgba(0, 0, 0, 0.65);
-	transform: translateY(0);
-  }
-  
-  
-  table {
-	width: 1190px;
-	border-collapse: collapse;
-	position: center;
-	position: relative;
-	right: 20px;
-  }
-  
-  th,
-  td {
-	padding: 5px;
-	text-align: center;
-	border-bottom: 1px solid #1a0c0c;
-  }
-  
-  th {
-	
-	background-color: #044f81;
-	color: white;
-  }
-  
-  tr:nth-child(even) {
-	background-color: #f0f8ff;
-  }
-  
-  tr:hover {
-	background-color: #def3ff;
-  }
-  
-  .badge {
-	display: inline-block;
-	padding: 4px 8px;
-	border-radius: 400px;
-  }
-  
-  .badge-success {
-	background-color: #28a745;
-	color: #fff;
-  }
-  
-  .badge-warning {
-	background-color: #ffc107;
-	color: #000;
-  }
-  
-  .badge-reject {
-	background-color: #de0b0b;
-	color: #fff;
-  }
-  
-  .table {
-	vertical-align: middle !important;
-  }
-  
-  .table thead {
-	height: 3rem;
-	vertical-align: middle;
-  }
-  
-  .table thead tr th {
-	text-align: center;
-  }
-  
-  .table-striped > tbody > tr:nth-child(even) > td,
-  .table-striped > tbody > tr:nth-child(even) > th {
-	background-color: #e2f3ff;
-  }
-  
+align-items: center;
+background-color: #2A88AD;
+border: 1px solid rgba(255, 255, 255, 0.1);
+box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-sizing: border-box;
+color: rgba(255, 255, 255, 0.85);
+cursor: pointer;
+display: inline-flex;
+font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 60;
+justify-content: center;
+margin: 0;
+min-height: 3rem;
+padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+position: relative;
+top:30px;
+}
+
+.btn:hover,
+.btn:focus {
+border-color: rgba(0, 0, 0, 0.15);
+box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+color: rgba(255, 255, 255, 0.65);
+}
+
+.btn:hover {
+transform: translateY(-1px);
+}
+
+.btn:active {
+background-color: #F0F0F1;
+border-color: rgba(0, 0, 0, 0.15);
+box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+color: rgba(0, 0, 0, 0.65);
+transform: translateY(0);
+}
+
+
+table {
+width: 1190px;
+border-collapse: collapse;
+position: center;
+position: relative;
+right: 20px;
+}
+
+th,
+td {
+padding: 5px;
+text-align: center;
+border-bottom: 1px solid #1a0c0c;
+}
+
+th {
+background-color: #044f81;
+color: white;
+}
+
+tr:nth-child(even) {
+background-color: #f0f8ff;
+}
+
+tr:hover {
+background-color: #def3ff;
+}
+
+.badge {
+display: inline-block;
+padding: 4px 8px;
+border-radius: 400px;
+}
+
+.badge-success {
+background-color: #28a745;
+color: #fff;
+}
+
+.badge-warning {
+background-color: #ffc107;
+color: #000;
+}
+
+.badge-reject {
+background-color: #de0b0b;
+color: #fff;
+}
+
+.table {
+vertical-align: middle !important;
+}
+
+.table thead {
+height: 3rem;
+vertical-align: middle;
+}
+
+.table thead tr th {
+text-align: center;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+background-color: #e2f3ff;
+}
