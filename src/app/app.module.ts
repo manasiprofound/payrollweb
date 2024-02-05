@@ -14,6 +14,7 @@ import { StaffSettingsComponent } from './screen/staff-settings/staff-settings.c
 import { StaffProfileComponent } from './screen/staff-profile/staff-profile.component';
 import { StaffEmptimecardComponent } from './screen/staff-emptimecard/staff-emptimecard.component';
 import { StaffEmptimesheetComponent } from './screen/staff-emptimesheet/staff-emptimesheet.component';
+import { EmpTimesheetComponent } from './screen/emp-timesheet/emp-timesheet.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { StaffEmptimesheetComponent } from './screen/staff-emptimesheet/staff-em
     StaffProfileComponent,
     StaffEmptimecardComponent,
     StaffEmptimesheetComponent,
+    EmpTimesheetComponent,
 
   ],
   imports: [
