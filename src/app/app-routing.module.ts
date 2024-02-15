@@ -10,7 +10,7 @@ import { StaffEmptimecardComponent } from './screen/staff-emptimecard/staff-empt
 import { StaffEmptimesheetComponent } from './screen/staff-emptimesheet/staff-emptimesheet.component';
 
 const routes: Routes = [
-  // { path: '', redirectTo: '', pathMatch: 'full'},
+  
   {path: 'staffprofile', component: StaffProfileComponent},
   {path: 'staffsettings', component: StaffSettingsComponent},
   { path: 'stafflogin', component: StaffLoginComponent},
