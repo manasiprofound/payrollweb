@@ -18,8 +18,8 @@ const routes: Routes = [
   { path: 'createemp', component: StaffCreateempComponent},
   { path: 'emphome', component: EmpDashboardComponent},
   { path: 'staffemptimecard', component: StaffEmptimecardComponent},
-  { path: 'staffemptimesheet', component: StaffEmptimesheetComponent}
-  // {path: '**', component: StaffDashboardComponent}
+  { path: 'staffemptimesheet', component: StaffEmptimesheetComponent},
+  {path: '**', component: StaffDashboardComponent}
 ];
 
 @NgModule({

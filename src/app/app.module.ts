@@ -15,7 +15,8 @@ import { StaffProfileComponent } from './screen/staff-profile/staff-profile.comp
 import { StaffEmptimecardComponent } from './screen/staff-emptimecard/staff-emptimecard.component';
 import { StaffEmptimesheetComponent } from './screen/staff-emptimesheet/staff-emptimesheet.component';
 import { EmpTimesheetComponent } from './screen/emp-timesheet/emp-timesheet.component';
-import { CalendarComponent } from './component/calendar/calendar.component';
+import { CalenderComponent } from './component/calender/calender.component';
+import { WeeklycalenderComponent } from './component/weeklycalender/weeklycalender.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,9 @@ import { CalendarComponent } from './component/calendar/calendar.component';
     StaffEmptimecardComponent,
     StaffEmptimesheetComponent,
     EmpTimesheetComponent,
-    CalendarComponent,
+    CalenderComponent,
+    WeeklycalenderComponent,
+  
 
   ],
   imports: [

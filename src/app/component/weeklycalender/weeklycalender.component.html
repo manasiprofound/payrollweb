@@ -1,0 +1,22 @@
+<p>weeklycalender works!</p>
+<div class="container">
+    <h1>Select a date range:</h1>
+    <input type="date" [(ngModel)]="startDate" (change)="updateWeeks()">
+    <input type="date" [(ngModel)]="endDate" (change)="updateWeeks()">
+    
+    <div *ngIf="weeks.length > 0">
+      <h2>Weeks within the range:</h2>
+      <div class="weeks-container">
+        <div class="week" *ngFor="let week of weeks">
+          <h3>{{ week[0] | date:'d MMMM, yyyy' }} - {{ week[6] | date:'d MMMM, yyyy' }}</h3>
+          <ul>
+            <li *ngFor="let date of week">{{ date | date:'d' }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="weeks.length === 0">
+      <p>Please select a date range.</p>
+    </div>
+  </div>
+  

@@ -1,0 +1,21 @@
+
+<div class="container">
+  <h1>Select a date:</h1>
+  <input type="date" [(ngModel)]="selectedDate" (change)="updateWeekDates()">
+  
+  <div *ngIf="dates.length > 0">
+    <h2>Dates of the week:</h2>
+    <ul>
+      <li *ngFor="let date of dates">
+        <div class="date-item">
+          <label>{{ date | date:'d MMMM, yyyy' }}</label>
+          <input type="text" name="hours" class="form-control" [(ngModel)]="dateData[date.toISOString()]" placeholder="    ">
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="dates.length === 0">
+    <p>Please select a date.</p>
+  </div>
+</div>
+
